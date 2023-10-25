@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Via Cep</title>
+    <link rel="stylesheet" href="css/cep.css" />
+  </head>
+  <body class="background">
+    <main>
+      <div class="container-center">
+        <form action="">
+          <h2>Endereço</h2>
+          <div class="row">
+            <input type="text" id="cep" placeholder="CEP" />
+          </div>
+          <div class="row">
+            <input type="text" id="rua" placeholder="Rua" />
+          </div>
+          <div class="row">
+            <input type="text" id="numero" placeholder="Número" />
+          </div>
+          <div class="row">
+            <input type="text" id="bairro" placeholder="Bairro" />
+          </div>
+          <div class="row">
+            <input type="text" id="estado" placeholder="Estado" />
+          </div>
+          <div class="row">
+            <input type="text" id="cidade" placeholder="Cidade" />
+          </div>
+        </form>
+        <div class="rowbtn">
+            <button type="submit" id="btnLimpar" onclick="Limpar()">
+                Limpar
+            </button>
+            <button type="submit" id="btn"> 
+                Salvar
+            </button>
+        </div>
+      </div>
+    </main>
+    <script src="../src/main.js"></script>
+  </body>
+</html>
